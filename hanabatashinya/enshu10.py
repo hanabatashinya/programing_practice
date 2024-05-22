@@ -6,8 +6,8 @@ keta = 0
 
 arabia = int(input())
 
-if arabia == 0:
-    print("零")
+if arabia == 0 or arabia == 1:
+    print(kazu[arabia])
     exit()
 
 while arabia != 0:
